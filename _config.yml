@@ -22,8 +22,8 @@ title: The HKN website is down.
 email: hkn@hkn.eecs.berkeley.edu
 description: >-
   HKN is working to restore access.
-baseurl: ""
-url: "https://compserv.github.io/status"
+baseurl: "status/"
+url: "https://compserv.github.io/"
 
 # Build settings
 github_repo: "compserv/status"
