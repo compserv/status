@@ -18,19 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: HKN Mu Chapter
+title: The HKN website is down.
 email: hkn@hkn.eecs.berkeley.edu
 description: >-
-  The HKN Mu website status page
+  HKN is working to restore access.
 baseurl: ""
 url: "https://compserv.github.io/status"
 
 # Build settings
+github_repo: "compserv/status"
+github_username: compserv
 remote_theme: broccolini/swiss
 theme_color: black
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-commonmark-ghpages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
